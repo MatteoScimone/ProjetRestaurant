@@ -101,15 +101,15 @@ namespace RestaurantWPF
             
                 if (sldNote.Value <= 4)
             {
-                LOLO.Source = new BitmapImage(new Uri("/ImagesSmiley/Bofe.png", UriKind.RelativeOrAbsolute));
+                imgSmiley.Source = new BitmapImage(new Uri("/ImagesSmiley/Bofe.jpg", UriKind.RelativeOrAbsolute));
             }
             else if (sldNote.Value >= 7)
             {
-                LOLO.Source = new BitmapImage(new Uri("/ImagesSmiley/Content.png", UriKind.RelativeOrAbsolute));
+                imgSmiley.Source = new BitmapImage(new Uri("/ImagesSmiley/Content.jpg", UriKind.RelativeOrAbsolute));
             }
             else
             {
-                LOLO.Source = new BitmapImage(new Uri("/ImagesSmiley/Moyen.png", UriKind.RelativeOrAbsolute));
+                imgSmiley.Source = new BitmapImage(new Uri("/ImagesSmiley/Moyen.jpg", UriKind.RelativeOrAbsolute));
             }
 
         }

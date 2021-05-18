@@ -14,7 +14,7 @@
             <RowDefinition Height="50"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBlock Text="Restaurant SIO" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"
+        <TextBlock Text="Restaurant GSB" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"
                    Grid.Row="0"
                    Foreground="BlueViolet"></TextBlock>
         <Grid Grid.Row="1">
@@ -100,7 +100,7 @@
             <Label Name="txtTotal" Width="200" Height="100" Grid.Column="2"
                            FontSize="20" Foreground="BlueViolet" VerticalContentAlignment="Center"
                    HorizontalContentAlignment="Center"></Label>
-            <Image Name="LOLO" Width="200" Height="100" Grid.Column="1"></Image>
+            <Image Name="imgSmiley" Width="200" Height="100" Grid.Column="1"></Image>
         </Grid>
     </Grid>
 </Window>
